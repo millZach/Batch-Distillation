@@ -65,7 +65,7 @@ if page_select == 'General Information':
     st.table(properties_df)
     st.markdown(
         'This is a process flow diagram of the apparatus used for this distillation:')
-    st.image(image_display('Batch Distillation.jpg'))
+    st.image(image_display('Batch Distillation.JPG'))
 
     st.markdown(
         'Vapor liquid equilibrium data for Ethyl and Butyl acetate at 1 atm. Data was provided by http://vle-calc.com/phase_diagram.html')
